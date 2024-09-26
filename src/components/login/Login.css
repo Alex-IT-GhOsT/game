@@ -1,0 +1,16 @@
+
+.form-signin{
+    position: relative;
+}
+
+#inputPassword{
+    position: relative;
+}
+
+.eys{
+    position: absolute;
+    cursor: pointer;
+    top: 48%;
+    right: 8px;
+    transform: translateY(-48%);
+}

@@ -1,0 +1,33 @@
+.card:hover {
+    background-color: black;
+    color: white;
+}
+
+.card{
+    transition: 1s;
+    cursor: default;
+}
+
+@media screen and (max-width: 599px) {
+    main {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 314px) {
+    main {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+ .text-center{
+    cursor: default;
+ }
+
+ .category-block{
+    padding: 1em;
+    margin-bottom: 50px;
+ }

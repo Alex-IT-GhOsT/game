@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('https://bogatyr.club/uploads/posts/2023-03/1679587199_bogatyr-club-p-fon-dlya-prezentatsii-angliya-krasivo-1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-signin{
+  max-width: 330px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+.block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

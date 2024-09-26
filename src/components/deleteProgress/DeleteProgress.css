@@ -1,0 +1,59 @@
+.modalBlock{
+    display: block;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    background-color: white;
+}
+
+.mainBlockModal{
+    display: flex;
+    justify-content: center;    
+}
+
+.btnBlock{
+    display: flex;
+    justify-content: space-around;
+}
+
+.closeBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.title{
+    flex: 11;
+}
+
+.modalBlockMain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+}
+
+.mainCloseBlock{
+    position: absolute !important;
+    top: 50%;
+    left: 0;
+    right: 0;
+}
+
+.blockProgress{
+    display: flex;
+    padding: 1em;
+}
+.blockProgress > button {
+    margin: 0 auto;
+}

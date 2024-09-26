@@ -1,0 +1,39 @@
+.category {
+    display: block;
+    padding: 10px;
+    transition: .4s;
+}
+.category_block{
+    position: relative;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+     transition: background-color 0.4s, max-height 1s;
+    overflow: hidden;
+}
+.category_block::after{
+    position: absolute;
+    content: '⮛';
+    right: 0;
+    top: 0;
+    transition: .4s;
+}
+.category_block:hover{
+    background-color: #CFE2FFFF;
+   
+}
+.category_block.open > div {
+    max-height: 300px; 
+    overflow-y: auto;
+    transition: 1s;
+  }
+.category_block.open::after {
+    content: '⮛'; 
+    transform: rotate(180deg);
+    transition: .4s;
+}
+#btnPrint {
+    position: absolute;
+    right: 5%;
+}

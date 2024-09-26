@@ -1,0 +1,25 @@
+.flipped{
+    transform: rotateY(180deg);
+    perspective: 1000px; 
+    transition-delay: .3s;
+}
+
+.flip{
+    transform: rotateY(180deg);
+    transition: 1s;  
+    transform-style: preserve-3d;  
+}
+
+.close_block{
+    backface-visibility: hidden;
+}
+
+.card-body p {
+    color: #ccc;
+}
+.blockButton {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+  }
+  

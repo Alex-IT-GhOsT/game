@@ -1,0 +1,15 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.footer-title p{
+     color: white; 
+     margin: 0;  
+}
